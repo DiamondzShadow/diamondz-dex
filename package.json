@@ -1,0 +1,37 @@
+{
+  "name": "diamondz-dex",
+  "version": "1.0.0",
+  "description": "Decentralized Exchange for the Diamondz Chain",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "hardhat run scripts/deploy-all.js --network diamondz"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "next": "^13.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "autoprefixer": "^10.4.13",
+    "chai": "^4.3.7",
+    "eslint": "^8.33.0",
+    "eslint-config-next": "^13.1.6",
+    "ethereum-waffle": "^3.4.4",
+    "hardhat": "^2.12.7",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.5"
+  }
+}
